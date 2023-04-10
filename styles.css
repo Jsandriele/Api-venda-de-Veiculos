@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(78, 78, 153);
+}
+.titulo {
+  color: white;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 32px;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 32px;
+  margin-left: 62px;
+}
+.form-control {
+  width: 175px;
+  height: 64px;
+  border-radius: 15px;
+  margin-right: 10px;
+  text-align: center;
+}
+.input {
+  margin-top: 32px;
+  margin-left: 62px;
+  display: inline;
+ 
+}
+.caixa1{
+  width: 360px;
+  height: 360px;
+}
