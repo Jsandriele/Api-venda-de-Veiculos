@@ -1,12 +1,14 @@
 * {
   box-sizing: border-box;
+  margin: 0%;
 }
 
 body {
-  background: rgb(78, 78, 153);
+  background: #F8F8FF;
+  ;
 }
 .titulo {
-  color: white;
+  color: rgb(15, 15, 15);
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -15,24 +17,92 @@ body {
 .form {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   margin-top: 32px;
   margin-left: 62px;
 }
 .form-control {
-  width: 175px;
+  background: #DCDCDC;
+  color: hsla(111, 20%, 20%, 1);
+  font-size: 15px;
+  font-weight: bold;
+
+  width: 190px;
   height: 64px;
-  border-radius: 15px;
-  margin-right: 10px;
+  border-radius: 40px;
+  border: none;
+
+  margin-right: 20px;
   text-align: center;
 }
 .input {
-  margin-top: 32px;
+  margin-top: 85px;
   margin-left: 62px;
-  display: inline;
- 
+
+  display: flex;
+  justify-content: center;
 }
-.caixa1{
+.caixa1 {
+  border: none;
+}
+label {
+  color: rgb(124, 115, 115);
+  font-weight: bold;
+}
+.input-valor {
   width: 360px;
-  height: 360px;
+  height: 35px;
+  border-radius: 15px;
+  border: 1px solid;
 }
+.input-valor::placeholder {
+  color: black;
+}
+.btn-consultar {
+  width: 180px;
+  height: 35px;
+  background: rgb(68, 35, 161);
+  color: antiquewhite;
+  border: 1.5rem rgb(40, 114, 226);
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.resultado{
+  background: #F8F8FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin-top: 92px;
+  border: none;
+}
+.rodape{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  background: #DCDCDC;
+  margin-top: 180px;
+  color: #000;
+}
+.text{
+  text-align: center;
+  margin-right: 30px;
+}
+.icons-sociais{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  
+}
+.icons-sociais, li{
+  list-style-type: none;
+  margin-right: 10px;
+  
+}
+

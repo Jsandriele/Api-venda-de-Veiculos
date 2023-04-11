@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width" />
    
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="module" src="script.js"></script>
   </head>
   <body>
@@ -13,34 +14,49 @@
      <header>Simulador de venda de veículos</header>
    </div>
    <div class="form">
-     <form action="htt" method="post"></form>
-    <select name="tipoveiculo" id="tipoveiculo" class="form-control" data-size="7" data-style="btn btn-simples btn-round">
-      <option value>selecione tipo de veiculo</option>
+    <form action="http://simulador.com" method="post"></form>
+    <select name="tipoveiculo" id="tipoveiculo" class="form-control" data-size="15" data-style="btn btn-simples btn-round">
+      <option value>Selecione veiculo</option>
       <option value="1">Carro</option>
       <option value="2">Moto</option>
       <option value="3">Caminhão</option>
     </select>
-    <select name="Marca" id="marca" class="form-control" data-size="7" data-style="btn btn-simples btn-round">
-      <option value>Marca</option>
+    <select name="Marca" id="marca" class="form-control" data-size="15" data-style="btn btn-simples btn-round">
+      <option value>Selecione Marca</option>
     </select>
-    <select name="modelo" id="modelo" class="form-control" data-size="7" data-style="btn btn-simples btn-round">
-      <option value>Modelo</option>
+    <select name="modelo" id="modelo" class="form-control" data-size="15" data-style="btn btn-simples btn-round">
+      <option value>Selecione Modelo</option>
     </select>
-    <select name="" id="" class="form-control" data-size="7" data-style="btn btn-simples btn-round">
-      <option value>Ano</option>
+    <select name="" id="" class="form-control" data-size="15" data-style="btn btn-simples btn-round">
+      <option value>Selecione Ano</option>
     </select>
 
    </div>
    
     <div class="input">
       <fieldset class="caixa1">
-        <label for="valor" class="text">Valor</label></br>
+        <label for="valor" class="text">Valor da Venda</label></br>
         <input type="text" name="valor" id="valor" class="input-valor" placeholder="R$" >
         <button  type="button" class="btn-consultar">Consultar</button>
       </fieldset>
      </div>
+     <fieldset class="resultado">
+       
+     </fieldset>
   
   
-   
+   <footer class="rodape">
+     <span class="text">&copy 2023-Jsandriele | | Desenvolvedor Front-end</span><br>
+     <div class="fa-2x">
+      <ul class="icons-sociais">
+        <li><a href="https://www.instagram.com/jaquelinesandriele/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/Jsandriele"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/jaqueline-oliveira-devfrontend/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+      </ul>
+      
+
+     </div>
+      
+    </footer>
   </body>
 </html>
